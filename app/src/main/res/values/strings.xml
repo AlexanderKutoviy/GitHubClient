@@ -9,6 +9,7 @@
     <string name="error_msg_no_internet">Not connected to internet</string>
     <string name="error_msg_timeout">The server took too long to respond</string>
     <string name="error_msg_unknown">An unexpected error occurred</string>
+    <string name="timeout_error_msg">The server took too long to respond.</string>
     <string name="no_followers_msg">Current user has no followers</string>
     <string name="tap_to_reload">Tap to reload</string>
 

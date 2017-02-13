@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RestApi {
 
-    public static String gitHubUrl = "https://api.github.com/";
+    public static final String GIT_HUB_URL = "https://api.github.com/";
 
     private static Retrofit retrofit = null;
 
