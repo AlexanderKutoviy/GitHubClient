@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_margin">16dp</dimen>
+
+    <dimen name="paddingItemDecorationDefault">8dp</dimen>
+    <dimen name="paddingItemDecorationEdge">24dp</dimen>
+    <dimen name="activity_margin_content">24dp</dimen>
+    <dimen name="activity_margin_half">8dp</dimen>
+    <dimen name="poster_thumb_width">72dp</dimen>
+    <dimen name="poster_thumb_height">96dp</dimen>
+    <dimen name="activity_margin_quarter">4dp</dimen>
+
+    <dimen name="user_item_width_height">110dp</dimen>
+    <dimen name="avatar_width_height">70dp</dimen>
+    <dimen name="avatar_margin_left">20dp</dimen>
+    <dimen name="login_text_size">25sp</dimen>
+    <dimen name="btn_text_size">12sp</dimen>
+    <dimen name="login_margin_top">10dp</dimen>
+    <dimen name="followers_btn_margin_bottom">5dp</dimen>
+    <dimen name="user_list_item_margin_top">10dp</dimen>
+    <dimen name="user_list_item_margin_bottom">10dp</dimen>
+
+    <dimen name="btn_width">90dp</dimen>
+    <dimen name="btn_height">40dp</dimen>
+    <dimen name="btn_radius">5dp</dimen>
+    <dimen name="followers_btn_margin_top">15dp</dimen>
+
+</resources>

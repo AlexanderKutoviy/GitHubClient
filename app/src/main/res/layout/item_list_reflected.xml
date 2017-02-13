@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/user_item_width_height"
+    android:layout_marginBottom="@dimen/user_list_item_margin_bottom"
+    android:layout_marginTop="@dimen/user_list_item_margin_top"
+    android:background="@color/light_grey"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/avatar_width_height"
+        android:layout_height="@dimen/avatar_width_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/followers_btn_margin_top"
+        android:layout_marginEnd="@dimen/avatar_margin_left"
+        android:layout_marginRight="@dimen/avatar_margin_left"
+        android:layout_marginTop="@dimen/login_margin_top" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/login_margin_top"
+        android:text="USER LOGIN"
+        android:textColor="@color/black"
+        android:textSize="@dimen/login_text_size" />
+
+    <Button
+        android:id="@+id/followers_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/btn_height"
+        android:layout_below="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/followers_btn_margin_top"
+        android:background="@drawable/followers_btn_colors"
+        android:text="@string/followers_btn_text"
+        android:textColor="@color/light_white"
+        android:textSize="@dimen/btn_text_size" />
+
+</RelativeLayout>

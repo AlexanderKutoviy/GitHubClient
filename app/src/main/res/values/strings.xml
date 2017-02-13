@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Genesis GitHub client</string>
+
+    <string name="my_client_id">99298b79bdf8036c17a4</string>
+    <string name="my_client_secret">2c61679945fda5d1dba505444394a03c4dad7e69</string>
+
+    <string name="error_msg">Sorry! Couldn\'t fetch users.</string>
+    <string name="btn_retry">Retry</string>
+    <string name="error_msg_no_internet">Not connected to internet</string>
+    <string name="error_msg_timeout">The server took too long to respond</string>
+    <string name="error_msg_unknown">An unexpected error occurred</string>
+    <string name="no_followers_msg">Current user has no followers</string>
+    <string name="tap_to_reload">Tap to reload</string>
+
+    <string name="followers_btn_text">followers</string>
+</resources>
